@@ -80,9 +80,11 @@ Built backend logic with Node.js, connected SQL (MariaDB) and NoSQL (MongoDB) da
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ArulUlum&show_icons=true&theme=default" alt="Andi's GitHub stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ArulUlum&show_icons=true&theme=default&count_private=true" alt="Andi's GitHub stats" height="165"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArulUlum&layout=compact&theme=default" alt="Top Languages" height="165"/>
 </p>
+
+> Note: these two stat cards are generated live by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats), a third-party service — they may not render in some previews/editors that block dynamic image sources, but they display normally once the file is on github.com. If they still show broken after pushing, that service occasionally gets rate-limited; a documented fallback is deploying your own free copy on Vercel (see the linked repo's README).
 
 ---
 
