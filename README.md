@@ -8,6 +8,9 @@
   <a href="mailto:syahrululum1911@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
   </a>
+  <a href="https://wa.me/6282296499244">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+  </a>
   <img src="https://img.shields.io/badge/Location-Jakarta%2C%20Indonesia-informational?style=flat" alt="Location"/>
 </p>
 
@@ -92,5 +95,6 @@ Built backend logic with Node.js, connected SQL (MariaDB) and NoSQL (MongoDB) da
 
 <p align="left">
   <a href="https://linkedin.com/in/syahrululum">LinkedIn</a> ·
-  <a href="mailto:syahrululum1911@gmail.com">Email</a>
+  <a href="mailto:syahrululum1911@gmail.com">Email</a> ·
+  <a href="https://wa.me/6282296499244">+62 822-9649-9244</a>
 </p>
