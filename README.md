@@ -23,7 +23,7 @@
 - 🐍 Hands-on experience with **Python (Flask, FastAPI)**, **PostgreSQL**, **WebMethods**, and **APIGW**
 - 🧠 Big interest in **Artificial Intelligence, Machine Learning, and Deep Learning**
 - 🚀 Currently building **[Kebbu.id](https://github.com/ArulUlum)** — a full ticketing platform with 80+ REST API endpoints, payment gateway integrations, and CI/CD pipelines
-- 📚 Former Practicum Assistant & Assistant Lecturer for Artificial Intelligence at Telkom University
+- 📚 Also taught as a Practicum Assistant and Assistant Lecturer (AI) at Telkom University — details below
 
 ---
 
@@ -67,6 +67,12 @@ Building backend logic with Python Flask, writing PostgreSQL queries, integratin
 
 **Telkom Indonesia** — Backend Developer Intern _(Feb 2022 – Dec 2022)_
 Built backend logic with Node.js, connected SQL (MariaDB) and NoSQL (MongoDB) databases, and deployed with Docker.
+
+**Telkom University** — Practicum Assistant of Computer Science _(2022 – 2023)_
+Supervised practitioners during practicums, reviewed their questions, and assessed practicum results.
+
+**Telkom University** — Assistant Lecturer, Artificial Intelligence _(2021 – 2022)_
+Taught AI fundamentals (searching, reasoning, and learning) and helped students with their final AI course projects.
 
 ---
 
