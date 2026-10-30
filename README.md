@@ -76,13 +76,34 @@ Taught AI fundamentals (searching, reasoning, and learning) and helped students 
 
 ---
 
-### 🚀 Featured Project — Kebbu.id (Full Stack Developer)
+### 🚀 Featured Projects
+
+#### 🎟️ Kebbu.id (Full Stack Developer)
 
 - Built 80+ REST API endpoints (FastAPI) for auth, events, tickets, payments, and images; migrated backend from Flask to FastAPI (SQLAlchemy 2.0, Pydantic)
 - Implemented JWT auth and Google OAuth login; integrated Xendit, Midtrans, and Cring QRIS payment gateways with webhooks and scheduled invoice auto-expiry (APScheduler)
 - Built automated e-ticket delivery (QR code + PDF generation, email via Resend) and image storage via Cloudinary
 - Built the frontend with React, Vite, and Tailwind CSS: QR check-in scanner and an organizer analytics dashboard (Recharts)
 - Set up CI/CD: Dockerized backend, auto build/push to Docker Hub via GitHub Actions, deployed to a VPS behind Nginx with Let's Encrypt SSL; frontend hosted on Vercel
+
+#### 🎬 [Clipperul](https://github.com/ArulUlum/Clipperul) — AI Video Clipping & Publishing Platform
+
+- Turns long-form videos (file upload or YouTube link) into short vertical clips and publishes them to social media from a single editor
+- Built the AI pipeline: faster-whisper transcription plus a pluggable LLM layer (OpenAI-compatible, Anthropic, Gemini, or local Ollama) that detects the video category, scores moments on hook, flow, value, and trend, and writes clip titles in the video's own language
+- Built video processing with FFmpeg and OpenCV: automatic cutting, face-tracking smart crop, multiple aspect ratios, and burned-in subtitles with category-matched presets
+- Built a tabbed clip editor with Next.js 15, React 19, and Tailwind CSS: trim, ratio, crop, subtitles, details, and post, all with live preview
+- Implemented multi-account publishing with OAuth: post now or on a schedule, real upload progress, cancellation, and automatic retries with backoff (live on YouTube; TikTok pending platform API approval)
+- Added an optional daily auto clip that picks a trending YouTube video, clips it, and posts the best clips at randomized intervals
+- Designed a queue-based backend with FastAPI, Celery + Redis, PostgreSQL, and S3-compatible storage, streaming progress over server-sent events; runs on Docker Compose
+
+#### 🤖 [Agent Arul](https://github.com/ArulUlum/agent-arul) — Self-Hosted Telegram AI Agent
+
+- Built a self-hosted Telegram bot in Python that controls a Windows 11 laptop, with commands for system status, screenshots, files, shell, and browser tasks
+- Built an agent mode where natural-language messages drive an LLM function-calling loop over an OpenAI-compatible endpoint, with automatic fallback to a JSON prompt mode when native tools are rejected
+- Added permanent memory and conversation history that survive restarts, plus document reading (PDF and text files)
+- Automated logged-in websites with Playwright and a dedicated browser profile, and desktop apps through window control, keyboard/mouse input, and clipboard transfer between apps
+- Implemented code hot-reload without restarting: validation in an isolated namespace, a health check, and automatic rollback on failure
+- Hardened it for personal use: owner-only access, button confirmation for risky actions, and automatic redaction of secrets in logs
 
 ---
 
