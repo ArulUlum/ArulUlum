@@ -78,7 +78,7 @@ Taught AI fundamentals (searching, reasoning, and learning) and helped students 
 
 ### 🚀 Featured Projects
 
-#### 🎟️ Kebbu.id (Full Stack Developer)
+#### 🎟️ [Kebbu.id](https://kebbu.id) (Full Stack Developer)
 
 - Built 80+ REST API endpoints (FastAPI) for auth, events, tickets, payments, and images; migrated backend from Flask to FastAPI (SQLAlchemy 2.0, Pydantic)
 - Implemented JWT auth and Google OAuth login; integrated Xendit, Midtrans, and Cring QRIS payment gateways with webhooks and scheduled invoice auto-expiry (APScheduler)
